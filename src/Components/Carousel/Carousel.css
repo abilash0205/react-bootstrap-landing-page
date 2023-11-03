@@ -1,0 +1,22 @@
+#home {
+  -webkit-box-shadow: 2px 7px 13px -2px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 2px 7px 13px -2px rgba(0, 0, 0, 0.69);
+  box-shadow: 2px 7px 13px -2px rgba(0, 0, 0, 0.69);
+}
+
+.carousel-images {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  filter: contrast(61%);
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

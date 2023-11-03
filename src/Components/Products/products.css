@@ -1,0 +1,24 @@
+#products{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.singlecard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cardimages {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-hover{
+    overflow: hidden;
+}
+
+.card-hover:hover .cardimages{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

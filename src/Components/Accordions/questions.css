@@ -1,0 +1,17 @@
+#qna {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.service-image img {
+    height: 500px;
+    max-width: 400px;
+    object-fit: contain;
+}
